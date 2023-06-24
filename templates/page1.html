@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        h1 {
+            color: blue;
+            margin: 0;
+        }
+
+        img {
+            width: 15%;
+            display: block;
+            margin: 20px auto;
+        }
+
+        h3 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <center>
+            <h1>Nike</h1>
+        </center>
+    </header>
+
+    <center>
+        <img src="{{url_for('static', filename='33.jpg')}}" alt="black color" />
+        <h3>Black color</h3>
+    </center>
+
+    <center>
+        <img src="{{url_for('static', filename='77.jpg')}}" alt="blue color" />
+        <h3>Blue color</h3>
+    </center>
+
+    <center>
+        <img src="{{url_for('static', filename='88.jpg')}}" alt="white color" />
+        <h3>White color</h3>
+    </center>
+       
+</body>
+</html>

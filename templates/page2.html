@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        h1 {
+            color: blue;
+            margin: 0;
+        }
+
+        img {
+            width: 15%;
+            display: block;
+            margin: 20px auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <center>
+            <h1>Adidas</h1>
+        </center>
+    </header>
+
+    <center>
+        <img src="{{url_for('static', filename='44.jpg')}}" alt="black color" />
+        <h1>Black color</h1>
+    </center>
+
+    <center>
+        <img src="{{url_for('static', filename='99.jpg')}}" alt="blue color" />
+        <h1>Blue color</h1>
+    </center>
+
+</body>
+</html>
